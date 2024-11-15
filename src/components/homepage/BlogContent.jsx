@@ -100,7 +100,7 @@ const BlogContent = () => {
     <div className='space-y-3 md:col-span-5'>
       {content}
       {hasMore ? (
-        <div ref={loaderRef} className='p-12'>
+        <div ref={loaderRef} className='py-12 text-center'>
           <p className='text-3xl'>Loading Blogs ...</p>
           <p className='text-lg leading-10'>Please Wait for a Moment.</p>
         </div>
